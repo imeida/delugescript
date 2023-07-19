@@ -8,7 +8,7 @@ sudo touch /var/log/deluge-web.log
 sudo chown deluge:deluge /var/log/deluge*
 sudo apt-get update -y
 sudo apt-get install deluged -y
-sudo apt-get install deluge-webui -y
+sudo apt-get install deluge-web -y
 echo '# Configuration for /etc/init.d/deluge-daemon
 # The init.d script will only run if this variable non-empty.
 DELUGED_USER="deluge"
